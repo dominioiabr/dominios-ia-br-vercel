@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+body { font-family: 'Roboto', sans-serif; margin: 0; padding: 20px; box-sizing: border-box; background-color: #f8f7f5; color: #333; line-height: 1.6; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.content-wrapper { background-color: #ffffff; padding: 30px 40px; border: 3px solid #0a4f3e; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); max-width: 600px; width: 100%; text-align: center; }
+header { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+.domain-exclusive-badge { display: inline-block; background-color: #e8f5e9; color: #0a4f3e; padding: 5px 15px; border-radius: 4px; font-size: 0.85em; font-weight: 500; text-transform: uppercase; margin-bottom: 15px; border: 1px solid #0a4f3e; }
+.site-title { font-family: 'Merriweather', serif; font-size: 2.8em; color: #0a4f3e; margin: 10px 0 5px; letter-spacing: -0.5px; word-break: break-all; }
+.tagline { font-family: 'Roboto', sans-serif; font-size: 1.1em; color: #555; font-style: italic; }
+form { display: flex; flex-direction: column; gap: 15px; text-align: left; }
+label { margin-bottom: 8px; font-weight: 500; color: #0a4f3e; font-size: 0.95em; }
+input, textarea { width: 100%; padding: 12px; border: 1px solid #d0d0d0; border-radius: 6px; font-size: 1em; box-sizing: border-box; transition: all 0.3s ease; }
+input:focus, textarea:focus { border-color: #0a4f3e; box-shadow: 0 0 0 3px rgba(10, 79, 62, 0.15); outline: none; }
+button { background-color: #0a4f3e; color: white; padding: 14px 25px; border: none; border-radius: 6px; font-size: 1.05em; font-weight: 500; cursor: pointer; transition: all 0.3s ease; margin-top: 10px; }
+button:hover { background-color: #073a2e; }
+button:disabled { background-color: #cccccc; cursor: not-allowed; }
+#form-status { margin-top: 20px; font-size: 1em; font-weight: 500; text-align: center; min-height: 1.2em;}
+#form-status.success { color: #27ae60; }
+#form-status.error { color: #e74c3c; }
+@media (max-width: 650px) { .site-title { font-size: 2.2em; } }

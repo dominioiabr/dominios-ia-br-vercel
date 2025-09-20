@@ -1,0 +1,9 @@
+# Dependências do Node
+node_modules
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos gerados pela Vercel
+.vercel

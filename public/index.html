@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domínio à Venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h2 class="tagline">DOMÍNIO EXCLUSIVO</h2>
+        <h1 class="domain-name" id="domain-name">carregando...</h1>
+        <p class="description">Inteligência artificial revolucionando o sistema judiciário.</p>
+        
+        <form id="offer-form">
+            <div class="form-group">
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Proposta de negócio ou aquisição..." required></textarea>
+            </div>
+            <button type="submit" id="submit-btn">Enviar Mensagem</button>
+        </form>
+        <div id="form-status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
